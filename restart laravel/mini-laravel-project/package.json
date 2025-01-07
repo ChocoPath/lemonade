@@ -1,0 +1,24 @@
+{
+  "name": "mini-laravel-project",
+  "version": "1.0.0",
+  "description": "A mini Laravel project.",
+  "main": "public/index.php",
+  "scripts": {
+    "dev": "npm run watch",
+    "watch": "mix watch",
+    "build": "npm run production",
+    "production": "mix --production"
+  },
+  "dependencies": {
+    "laravel-mix": "^6.0",
+    "axios": "^0.21",
+    "vue": "^2.6",
+    "vue-router": "^3.5"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0",
+    "sass": "^1.32",
+    "sass-loader": "^10.1"
+  },
+  "license": "MIT"
+}
